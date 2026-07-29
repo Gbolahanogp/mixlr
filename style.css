@@ -193,7 +193,9 @@
     justify-content: space-between;
     align-items: center;
   }
-
+.but{
+  font-size: 15px !important;
+}
   .navbar {
     width: 100%;
   }
