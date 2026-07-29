@@ -181,7 +181,6 @@
 .danger {
   background-color: #ed1c24 !important;
 }
-/* ================= MOBILE RESPONSIVE ================= */
 @media (max-width: 768px) {
   .header {
     height: auto;
