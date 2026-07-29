@@ -162,10 +162,14 @@
 .mm{
   text-align: center;
   width: 100%;
+  justify-content: space-between;
 }
 .mn{
-  width: 50%;
+  width: 48%;
 }
 .mnm{
-  width: 50%;
+  width: 48%;
+}
+.mm h2{
+  font-size: 26px;
 }
