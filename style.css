@@ -181,6 +181,180 @@
 .danger {
   background-color: #ed1c24 !important;
 }
-@media (min-width: 426px) and (max-width: 768px) {
-  
+/* ================= MOBILE RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    padding: 10px 15px;
+    z-index: 1000;
+  }
+
+  .barnav {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar-collapse {
+    background: #fff;
+    padding: 15px 0;
+    margin-top: 10px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 12px 0;
+    font-size: 18px;
+  }
+
+  .but {
+    display: none;
+  }
+
+  .logo {
+    height: 28px !important;
+  }
+
+  /* Hero Section */
+  .first-one {
+    width: 95%;
+    margin-top: 100px;
+    height: auto;
+    text-align: center;
+  }
+
+  .first-one h1 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .first-one p {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .first-two {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .first-two button {
+    width: 100%;
+    font-size: 18px;
+    padding: 14px;
+  }
+
+  /* Second Section */
+  .second {
+    width: 92%;
+    margin-top: 50px;
+  }
+
+  .second-one {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .i,
+  .img-1 {
+    width: 100%;
+  }
+
+  .img-1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .img-1 img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .second h1 {
+    font-size: 34px;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  .second p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .uu {
+    margin-left: 0 !important;
+  }
+
+  /* Third Section */
+  .third {
+    width: 92%;
+  }
+
+  .third h1 {
+    font-size: 35px;
+  }
+
+  .mm {
+    display: flex !important;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px !important;
+  }
+
+  .mn,
+  .mnm {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mm h2 {
+    font-size: 24px;
+  }
+
+  .mm p {
+    font-size: 16px;
+  }
+
+  /* CTA */
+  section.d-flex.justify-content-center {
+    width: 95%;
+    text-align: center;
+  }
+
+  section.d-flex.justify-content-center h2 {
+    font-size: 35px !important;
+  }
+
+  section.d-flex.justify-content-center .d-block {
+    display: flex !important;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  section.d-flex.justify-content-center button {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  /* Footer */
+  .foo {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px !important;
+  }
+
+  footer p {
+    text-align: center;
+    padding: 0 15px;
+  }
 }
